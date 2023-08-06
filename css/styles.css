@@ -64,7 +64,8 @@ body {
 /* header */
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,13 +84,13 @@ body {
 }
 
 .contacts-list {
-  column-gap: 40px;
+  gap: 40px;
   display: flex;
   margin-right: 0;
   align-items: center;
 }
 .menu-list-items {
-  column-gap: 40px;
+  gap: 40px;
   display: flex;
   margin-right: 0;
   align-items: center;

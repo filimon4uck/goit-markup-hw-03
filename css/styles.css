@@ -262,8 +262,10 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+.description-person {
+  padding: 32px 0;
+}
 .our-team-list-item-title {
-  padding-top: 32px;
   padding-bottom: 8px;
   text-align: center;
   color: var(--grey);
@@ -277,7 +279,6 @@ body {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 .our-team-list {

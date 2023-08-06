@@ -301,6 +301,8 @@ body {
   padding-bottom: 100px;
 }
 .logotype-white {
+  display: inline-block;
+  margin-bottom: 16px;
   font-size: 18px;
   font-weight: 800;
   font-family: Raleway, sans-serif;
@@ -314,7 +316,6 @@ body {
   color: var(--cloud);
 }
 .footer-text {
-  padding-top: 17.5px;
   max-width: 264px;
   color: var(--cloud);
   line-height: 1.5;

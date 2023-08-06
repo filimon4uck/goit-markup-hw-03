@@ -297,6 +297,7 @@ body {
 
 /* </section4> */
 
+/* <footer> */
 .footer {
   background-color: var(--navy-blue);
   padding-top: 100px;
@@ -323,6 +324,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* </footer> */
 
 /* portfolio page */
 .section-title {
@@ -347,7 +349,21 @@ body {
 
 /* filter buttons */
 
+.porfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.filter-list {
+  margin-top: 96px;
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .filter-button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
   font-size: 16px;
   cursor: pointer;
   font-family: Roboto, sans-serif;
@@ -360,11 +376,24 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
+  border: 1px solid transparent;
   color: var(--white);
   background-color: var(--ocean);
 }
+.description-app {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.gallery-list-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 .gallery-list-item-title {
+  margin-bottom: 8px;
   color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;

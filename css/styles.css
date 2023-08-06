@@ -232,8 +232,6 @@ body {
 }
 .we-do-section-title {
   margin-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
   color: var(--grey);
   font-size: 36px;
   line-height: 1.11;
@@ -254,7 +252,7 @@ body {
   padding-bottom: 120px;
 }
 .our-team-section-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   color: var(--grey);
   font-size: 36px;
   line-height: 1.11;
@@ -266,7 +264,7 @@ body {
   padding: 32px 0;
 }
 .our-team-list-item-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
   color: var(--grey);
   font-size: 20px;
@@ -283,7 +281,7 @@ body {
 
 .our-team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .our-team-list-item {
   background-color: white;

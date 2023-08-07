@@ -143,8 +143,6 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-top: 8px;
-  height: 600px;
   background-color: var(--navy-blue);
 }
 
@@ -353,7 +351,6 @@ body {
 }
 /* filter buttons */
 .filter-list {
-  margin-top: 96px;
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
